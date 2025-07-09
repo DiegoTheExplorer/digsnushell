@@ -48,4 +48,4 @@ starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.n
 carapace _carapace nushell | save --force ($nu.data-dir | path join "vendor/autoload/carapace.nu")
 zoxide init nushell | save -f ($nu.data-dir | path join "vendor/autoload/zoxide.nu")
 
-neofetch
+fastfetch
